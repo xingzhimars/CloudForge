@@ -8,8 +8,17 @@
     <artifactId>cloud-forge</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>CloudForge</name>
-    <description>CloudForge</description>
     <packaging>pom</packaging>
+
+
+    <modules>
+        <module>admin</module>
+        <module>portal</module>
+        <module>search</module>
+        <module>common</module>
+        <module>mbg</module>
+    </modules>
+
 
     <properties>
         <java.version>17</java.version>
